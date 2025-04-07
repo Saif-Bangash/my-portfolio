@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Applying the custom font globally */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Font for Navigation */
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Links */
+.nav-link:hover {
+  color: #f3f4f6; /* Light gray */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Font for Header */
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
