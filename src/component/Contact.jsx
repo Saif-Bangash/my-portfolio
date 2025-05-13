@@ -18,9 +18,9 @@ const Contact = () => {
         <div className="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-cyan-500/30 transition-all">
           <div className="flex items-center gap-4">
             <FaEnvelope className="text-2xl text-cyan-400" />
-            <h3 className="text-xl font-semibold">Email</h3>
+            <h3 className="text-lg sm:text-sm md:text-xl font-semibold">Email</h3>
           </div>
-          <p className="text-gray-300 mt-3 break-words">
+          <p className="text-gray-300 mt-3 break-words text-center text-md  sm:text-md">
             saifbangash480@gmail.com
           </p>
         </div>
@@ -29,9 +29,9 @@ const Contact = () => {
         <div className="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-green-500/30 transition-all">
           <div className="flex items-center gap-4">
             <FaWhatsapp className="text-2xl text-green-400" />
-            <h3 className="text-xl font-semibold">Phone & WhatsApp</h3>
+            <h3 className="text-lg sm:text-sm md:text-xl font-semibold">Phone & WhatsApp</h3>
           </div>
-          <p className="text-gray-300 mt-3">+92 332 6767 615</p>
+          <p className="text-gray-300 mt-3 text-center  sm:text-md">+92 332 6767 615</p>
         </div>
       </div>
 
