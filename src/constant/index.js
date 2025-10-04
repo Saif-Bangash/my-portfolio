@@ -1,8 +1,6 @@
 // Step 1: Import all images from src/assets
 import blogImg4 from "../assets/BlogsImg4.png";
-import moittImg from "../assets/images.jpeg";
-import coffeeImg from "../assets/images (1).jpeg";
-
+ 
 // Step 2: Assign them in the array
 const projects = [
   {
@@ -13,18 +11,21 @@ const projects = [
     image: blogImg4,
   },
   {
-    link: "https://github.com/projectsReports/Ministry-Of-Information-Technology-Telecommunication-Clone/",
-    title: "Technology and Telecommunication (MoITT)",
+    link: "https://converge-logics-six.vercel.app/",
+    title: "Converge Logics – Projects Showcase",
     description:
-      "The Ministry of Information Technology and Telecommunication (MoITT) promotes IT development, telecommunications, and digital infrastructure to drive economic growth and innovation in Pakistan.",
-    image: moittImg,
+      "Explore Converge Logics’ portfolio of digital projects, spanning tech, marketing, and finance. See how we bring ideas to life with innovation and impact.",
+    image:
+      "https://github.com/Saif-Bangash/Converge-logics/raw/main/public/assets/images/Screenshot%202025-10-04%20231210.png",
   },
+
   {
-    link: "https://coffee-website-virid-pi.vercel.app",
-    title: "Coffee-Website",
+    link: "https://flone-website-red.vercel.app/",
+    title: "Flone - React Ecommerce Template",
     description:
-      "A coffee website showcases coffee products, brewing guides, accessories, and related content. It offers a cozy design, providing an engaging platform for coffee enthusiasts to explore and purchase.",
-    image: coffeeImg,
+      "Flone is a modern and professional React-based eCommerce template. It comes with multiple shop layouts, product detail pages, and advanced UI components tailored for building fashion and product-focused online stores.",
+    image:
+      "https://github.com/Saif-Bangash/flone-website/raw/main/src/images/Screenshot%202025-10-04%20235915.png",
   },
 ];
 
